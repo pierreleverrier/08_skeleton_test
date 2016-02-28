@@ -1,0 +1,47 @@
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  height: 100vh;
+}
+
+.home {
+  background-color: #BDF0FF;
+}
+
+.black-block {
+  position: fixed;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  top: 15px;
+  left: 15px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.black-block a {
+  width: 60px;
+  height: 60px;
+}
+
+.black-block a img {
+  width: 60px;
+  height: 60px;
+}
+
+
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+}
