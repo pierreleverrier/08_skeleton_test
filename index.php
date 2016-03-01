@@ -134,12 +134,12 @@
     </div>
     <a href="#" class="bt-menu-trigger"><span>MENU</span></a>
       <ul>
-        <li><a href="#"><i class="fa fa-angle-right"></i> Anecgones</a></li>
-        <li><a href="#"><i class="fa fa-angle-right"></i> TV App</a></li>
-        <li><a href="#"><i class="fa fa-angle-right"></i> L'Exception</a></li>
-        <li><a href="#"><i class="fa fa-angle-right"></i> Creative Breakfast</a></li>
-        <li><a href="#"><i class="fa fa-angle-right"></i> Lyon BD</a></li>
-        <li><a href="#"><i class="fa fa-angle-right"></i> INSA</a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i> Anecgones <figure><img src="img/thumb-anecgones.jpg" alt="Thumb Anecgones"/><figcaption>iOS app <br /> Conception & Design <br /> 2015</figcaption></figure></a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i> TV App <img src="img/thumb-tvapp.jpg" alt="Thumb TV App"/></a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i> L'Exception <img src="img/thumb-exception.jpg" alt="Thumb l'Exception"/></a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i> Creative Breakfast <img src="img/thumb-creativebreakfast.jpg" alt="Thumb Creative Breakfast"/></a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i> Lyon BD <img src="img/thumb-lyonbd.jpg" alt="Thumb Lyon BD"/></a></li>
+        <li><a href="#"><i class="fa fa-angle-right"></i> INSA <img src="img/thumb-insa.jpg" alt="Thumb INSA"/></a></li>
         <li><a href="#"><i class="fa fa-info-circle"></i> About me</a></li>
       </ul>
     </nav>

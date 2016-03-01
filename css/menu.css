@@ -7,7 +7,7 @@
 	border-width: 0px;
 	border-style: solid;
 	border-color: #fff;
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0.7);
 	-webkit-backface-visibility: hidden;
 	-webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
 	transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
@@ -29,16 +29,25 @@
 	height: 100%;
 }
 
+.bt-menu-open .bt-menu-trigger {
+	top: 20px;
+    left: 120px;
+    -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
 .bt-menu-trigger {
 	position: fixed;
-    top: 15px;
-    left: 130px;
+    top: 30px;
+    left: 30px;
     z-index: 100;
     display: block;
     width: 100px;
     height: 100px;
     cursor: pointer;
     background-color: #fff;
+    -webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .bt-menu-trigger:hover span:before {
@@ -274,6 +283,53 @@
 .bt-menu ul:first-of-type li a:hover {
 	padding: 0 45px;
     color: #E63856;
+}
+
+.bt-menu ul:first-of-type li a:hover img {
+	opacity: 1;
+	-webkit-transition:all .3s ease;
+	     -o-transition:all .3s ease;
+	        transition:all .3s ease;
+	-webkit-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.bt-menu ul:first-of-type li a:hover figcaption {
+	opacity: 1;
+	-webkit-transition:all .3s ease;
+	     -o-transition:all .3s ease;
+	        transition:all .3s ease;
+	-webkit-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.bt-menu ul:first-of-type li a img {
+	position: absolute;
+	opacity: 0;
+	left: 300px;
+	width: 500px;
+	margin-top: -75px;
+	margin-left:-20px;
+	-webkit-transition:all .3s ease;
+	     -o-transition:all .3s ease;
+	        transition:all .3s ease;
+	-webkit-transform: translateX(-100px);
+	transform: translateX(-100px);
+}
+
+.bt-menu ul:first-of-type li a figcaption {
+	position: absolute;
+	opacity: 0;
+	color: #fff;
+	left: 825px;
+	width: 500px;
+	margin-top: -75px;
+	margin-left:-20px;
+	-webkit-transition:all .3s ease;
+	     -o-transition:all .3s ease;
+	        transition:all .3s ease;
+	-webkit-transform: translateX(-100px);
+	transform: translateX(-100px);
 }
 
 .bt-menu ul:nth-of-type(2) li a {
