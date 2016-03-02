@@ -48,7 +48,6 @@
     cursor: pointer;
     background-color: #fff;
     -webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
 }
 
 .bt-menu-trigger:hover span:before {
@@ -134,10 +133,15 @@
 }
 
 .bt-menu ul {
+	display:none;
 	position: fixed;
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+.bt-menu.bt-menu-open ul {
+	display: block;
 }
 
 .bt-menu ul:first-of-type {
@@ -304,6 +308,22 @@
 	transform: translateX(0px);
 }
 
+.bt-menu ul:first-of-type li a figcaption:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  content: "";
+  transition: width 0.7s;
+}
+
+.bt-menu ul:first-of-type li a:hover figcaption:before, .bt-menu ul:first-of-type li a:hover figcaption:after {
+  width: 3%;
+}
+
 .bt-menu ul:first-of-type li a img {
 	position: absolute;
 	opacity: 0;
@@ -325,7 +345,7 @@
 	line-height: 35px;
 	left: 825px;
 	width: 500px;
-	margin-top: -150px;
+	margin-top: -135px;
 	margin-left: -20px;
 	-webkit-transition:all 0.3s ease;
 	     -o-transition:all 0.3s ease;

@@ -74,7 +74,7 @@
           $("#typed").typed({
               // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
               stringsElement: $('#typed-strings'),
-              typeSpeed: 100,
+              typeSpeed: 75,
               backDelay: 300,
               loop: false,
               contentType: 'html', // or text
@@ -93,6 +93,15 @@
       function newTyped(){ /* A new typed object */ }
 
       function foo(){ console.log("Callback"); }
+  </script>
+  <script src="js/fadeInScroll.jQuery.js"></script>
+
+  <script>
+    jQuery(document).ready(function(){
+      $('.fadeIn').fadeInScroll({
+        minDistance:  80 * $(window).height() / 100
+        });
+    });
   </script>
 
   <!-- Favicon
@@ -113,3 +122,4 @@
 
 </head>
 <body>
+<div class="animsition">

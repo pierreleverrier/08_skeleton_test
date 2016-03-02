@@ -3,7 +3,7 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="animsition section home">
+  <div class="section home">
 
     
     <video autoplay loop muted id="bgvid">
@@ -20,7 +20,7 @@
     </div>
     <a href="#" class="bt-menu-trigger"><span>MENU</span></a>
       <ul>
-        <li><a href="#"><i class="fa fa-angle-right"></i> Anecgones <figure><img src="img/thumb-anecgones.jpg" alt="Thumb Anecgones"/><figcaption><i class="fa fa-folder-open-o"></i> iOS app <br /><i class="fa fa-reorder"></i> Conception & Design <br /> <i class="fa fa-calendar"></i> 2014</figcaption></figure></a></li>
+        <li><a href="anecgones.php"><i class="fa fa-angle-right animsition-link"></i> Anecgones <figure><img src="img/thumb-anecgones.jpg" alt="Thumb Anecgones"/><figcaption><i class="fa fa-folder-open-o"></i> iOS app <br /><i class="fa fa-reorder"></i> Conception & Design <br /> <i class="fa fa-calendar"></i> 2014</figcaption></figure></a></li>
         <li><a href="#"><i class="fa fa-angle-right"></i> TV App <figure><img src="img/thumb-tvapp.jpg" alt="Thumb TV App"/><figcaption><i class="fa fa-folder-open-o"></i> iOS app <br /><i class="fa fa-reorder"></i> Conception & Design <br /> <i class="fa fa-calendar"></i> 2015</figcaption></figure></a></li>
         <li><a href="#"><i class="fa fa-angle-right"></i> L'Exception <figure><img src="img/thumb-exception.jpg" alt="Thumb l'Exception"/><figcaption><i class="fa fa-folder-open-o"></i> Webdesign <br /><i class="fa fa-reorder"></i> (re)Design <br /> <i class="fa fa-calendar"></i> 2014</figcaption></figure></a></li>
         <li><a href="#"><i class="fa fa-angle-right"></i> Creative Breakfast <figure><img src="img/thumb-creativebreakfast.jpg" alt="Thumb Creative Breakfast"/><figcaption><i class="fa fa-folder-open-o"></i> Video <br /><i class="fa fa-reorder"></i> Conception, Production & Art Direction <br /> <i class="fa fa-calendar"></i> 2015</figcaption></figure></a></li>
@@ -46,7 +46,7 @@
 
     <div class="row">
       <div class="twelve columns">
-        <a href="#0" class="arrow-wrap bounce"><i class="fa fa-bomb"></i></a>
+        <a href="anecgones.php" class="arrow-wrap bounce animsition-link"><i class="fa fa-eye"></i></a>
       </div>
     </div>
 
