@@ -99,7 +99,7 @@
   <script>
     jQuery(document).ready(function(){
       $('.fadeIn').fadeInScroll({
-        minDistance:  80 * $(window).height() / 100
+        minDistance:  90 * $(window).height() / 100
         });
     });
   </script>

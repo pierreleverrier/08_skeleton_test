@@ -35,67 +35,31 @@
           <a class="block-social" href="mailto:leverrier.pierre@gmail.com"><i class="fa fa-envelope"></i></a>
         </div>
 
-        <nav id="prevnext" class="nav-slit">
-          <a class="prev animsition-link" href="insa.php">
-            <span class="icon-wrap"><i class="fa fa-chevron-left"></i></span>
-            <div>
-              <h3><i class="fa fa-long-arrow-left"></i> INSA</h3>
-              <img src="img/thumb-insa.jpg" alt="Previous thumb"/>
-            </div>
-          </a>
-          <a class="next animsition-link" href="tvapp.php">
-            <span class="icon-wrap"><i class="fa fa-chevron-right"></i></span>
-            <div>
-              <h3>TV App <i class="fa fa-long-arrow-right"></i></h3>
-              <img src="img/thumb-tvapp.jpg" alt="Next thumb"/>
-            </div>
-          </a>
-        </nav>
+        <div class="twelve columns project">
+          <img class="img-pres" src="img/profile-picture.png" alt="Profile" />
+        </div>
 
-        <h1 class="title-project">Design of the Anecgones App</h1>
-        <h2 class="infos-project">iOS App - Conception & Design - 2014</h2>
+        <h1 class="title-project">About me</h1>
         <hr />
         <p class="p-project">
-          Anecgones is a mobile app which makes people discover Lyon in an original way. Launch the app and it will send you
-          notifications as soon as you get close from places linked to an anecdote.
-          <br />
-          <br />
-          With various subjects such as architecture, music, sport, litterature, art... Anecgones is a fun and simple way
-          for tourist (and also Lyon inhabitants) to learn more about the city just by walking in the streets.
-          <br />
-          <br />
-          Anecdotes are sorting in categories, districts, etc... You can unlock trophies by completing some challenges, 
-          like "Collect all the 7th district anecdotes" or "Walk 5km in the city".
-        </p> 
+              Hello, I'm <span class="strong-pres">Pierre</span>, a 23 y.o <span class="strong-pres">digital designer</span>, based in Caen, France.
+              <br />
+              <br />
+              As a <span class="strong-pres">digital designer</span>, my goal is to create <span class="strong-pres">well thought & beautiful interfaces</span> to offer the best <span class="strong-pres">user experience.</span>
+              <br />
+              <br />
+              Recently graduated from a <span class="strong-pres">Master's degree in Art Direction & Communication</span> 
+              at the Lumiere University in Lyon, 
+              I'm currently looking for a work position in a <span class="strong-pres">digital agency</span>. 
+              I'm also available for some <span class="strong-pres">freelance work</span>.
+            </p>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="twelve columns project">
-        <img class="img-project" src="img/anecgones1.png" alt="Anecgones 1" />
-      </div>
-    </div>
-    <div class="row fadeIn">
-      <div class="twelve columns project">
-        <img class="img-project" src="img/anecgones2.jpg" alt="Anecgones 2" />
-      </div>
-    </div>
-    <div class="row fadeIn">
-      <div class="twelve columns project">
-        <img class="img-project" src="img/anecgones3.jpg" alt="Anecgones 3" />
-      </div>
-    </div>
-    <div class="row fadeIn">
-      <div class="twelve columns project">
-        <img class="img-project" src="img/anecgones4.jpg" alt="Anecgones 4" />
-      </div>
-    </div>
+      <a href="mailto:leverrier.pierre@gmail.com" class="button-hire button--nina animsition-link" data-text="Hire me →">
+        <span>L</span><span>e</span><span>t</span><span>'</span><span>s</span><span>&nbsp;</span><span>g</span><span>o</span><span>&nbsp;</span><span>!</span>
+      </a>
 
-    <a href="mailto:leverrier.pierre@gmail.com" class="button-hire button--nina animsition-link" data-text="Hire me →">
-      <span>L</span><span>e</span><span>t</span><span>'</span><span>s</span><span>&nbsp;</span><span>g</span><span>o</span><span>&nbsp;</span><span>!</span>
-    </a>
-
-  </div>
+    </div>
 
 
 <?php include('includes/footer.php'); ?>
